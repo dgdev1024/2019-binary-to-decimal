@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Binary to Decimal Converter</title>
+  </head>
+  <body>
+    <div class="shade">
+      <div class="container">
+        <main>
+          <h1>Convert Binary to Decimal</h1>
+          <p>Enter up to 8 binary digits (0 or 1) in the box below.</p>
+          <form onsubmit="onSubmit(event);">
+            <input
+              id="binary-input"
+              type="text"
+              placeholder="Enter Binary Digits Here"
+            />
+            <button type="Submit">Convert</button>
+          </form>
+          <p id="answer"></p>
+          <p id="error"></p>
+        </main>
+      </div>
+      <footer>
+        <p>Coded by Dennis Griffin</p>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
